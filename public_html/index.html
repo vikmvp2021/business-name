@@ -541,11 +541,12 @@
                                 Type your email address below and recive our
                                 daily news letter for free
                             </p>
-                            <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address" aria-describedby="newsletter">
-                                <button class="btn btn-outline-secondary" type="button" id="newsletter">Submit</button>
-                            </div>
-
+                            <form action="#" method="post">
+                                <div class="input-group mb-3">
+                                    <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address" aria-describedby="newsletter" required="">
+                                    <button class="btn btn-outline-secondary" type="submit" value="subscribed" id="newsletter">Submit</button>
+                                </div>
+                            </form>
                         </div><!-- contact news letter end -->
                     </div>
                 </div>
@@ -598,11 +599,11 @@
                 });
             });
         </script>
-      <script>
-        $('.navbar-collapse a').click(function(){
-            $(".navbar-collapse").collapse('hide');
-        });
-    </script>
+        <script>
+            $('.navbar-collapse a').click(function () {
+                $(".navbar-collapse").collapse('hide');
+            });
+        </script>
 
         <!-- Optional JavaScript; choose one of the two! -->
 
