@@ -430,6 +430,7 @@ header{
 .contact .form-control{
     background-color: #172227;
     border: none;
+    color: #A7A7A7;
 }
 .contact .form-control::placeholder{
     color: #A7A7A7;
